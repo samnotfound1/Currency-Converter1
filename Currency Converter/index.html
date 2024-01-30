@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+</style>
+<body>
+    <div class="container">
+        <h2 class="heading">CURRENCY CONVERTER</h2>
+        <div class="rate">
+            
+        </div>
+        <div class="main">
+            <div class="from dropdown">
+                <p>from</p>
+                <div class="options"><img src="https://flagsapi.com/US/flat/64.png" alt=""><select name="from"></select></div>
+                <div class="input1 input"><input type="number"></div>
+            </div>
+            <span class="swap"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none">
+                <path d="M20.5 5.5H9.5C5.78672 5.5 3 8.18503 3 12" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3.5 18.5H14.5C18.2133 18.5 21 15.815 21 12" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M18.5 3C18.5 3 21 4.84122 21 5.50002C21 6.15882 18.5 8 18.5 8" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M5.49998 16C5.49998 16 3.00001 17.8412 3 18.5C2.99999 19.1588 5.5 21 5.5 21" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2C6.47716 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 5C8.13401 5 5 8.134 5 12C5 15.866 8.13401 19 12 19C15.866 19 19 15.866 19 12C19 8.13401 15.866 5 12 5Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 2V5" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M12 19V22" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M3.33984 7L5.93792 8.5" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M18.0625 15.5L20.6606 17" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M20.6602 7L18.0621 8.5" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M5.9375 15.5L3.33942 17" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M10.4375 14.6667L10.4375 9.33333M12 9.33333V8M12 16V14.6667M10.4375 12H13.5625M13.5625 12C14.0803 12 14.5 12.4477 14.5 13V13.6667C14.5 14.219 14.0803 14.6667 13.5625 14.6667H9.5M13.5625 12C14.0803 12 14.5 11.5523 14.5 11V10.3333C14.5 9.78105 14.0803 9.33333 13.5625 9.33333H9.5" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg></span>
+            <div class="to dropdown">
+                <p>to</p>
+                <div class="options"><img src="https://flagsapi.com/IN/flat/64.png" alt=""><select name="to"></select></div>
+                <div class="input2 input"> <input  type="number"></div>
+            </div>
+        </div>
+        <button class="result" >Convert</button>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
